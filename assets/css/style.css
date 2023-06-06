@@ -20,7 +20,6 @@ body {
 }
 
 #header {
-    /* margin-bottom:1px; */
     border-bottom: 2px solid grey
 }
 
@@ -33,7 +32,37 @@ body {
     height: 90px;
 }
 
-#nav-list {
+#navbar {
+    width: 50%;
+}
+
+#navbar-list {
+    height:100%;
+    margin:auto;
     display:flex;
     list-style: none;
 }
+
+.navbar-icon {
+    margin:auto;
+    font-family: "Lato",sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    letter-spacing: 0.085em;
+    text-transform: uppercase;
+}
+
+#intro {
+    margin:auto;
+    max-width: 1224px;
+    width:100%;
+    min-height: 92vh;
+    display:flex;
+    align-items: center;
+}
+
+#intro-title,
+#intro-image {
+    width:50%
+}
+
