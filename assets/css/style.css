@@ -74,3 +74,49 @@ body {
     border-radius: 50%;
 }
 
+#about {
+    margin:auto;
+    display: flex;
+    /* justify-content: center; */
+    max-width: 1224px;    
+}
+
+.about-inner {
+    width:50%;
+    /* display:flex; */
+}
+
+#about-inner-skills{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+#portfolio {
+    max-width:1224px;
+    margin:auto;
+}
+
+#portfolio-title {
+    text-align: center;
+}
+
+#skills {
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;
+
+}
+.skill-icon {
+    width:15%;
+    padding:2px;
+
+}
+.skill-icon > img{
+    object-fit:contain;
+}
+
+.invert{
+    -webkit-filter: invert(.75); /* safari 6.0 - 9.0 */
+    filter: invert(.75);
+}
+
