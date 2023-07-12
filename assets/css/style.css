@@ -66,3 +66,11 @@ body {
     width:50%
 }
 
+#intro-image {
+    max-height: 600px;
+    object-position: top;
+    overflow:hidden;
+    object-fit:cover;
+    border-radius: 50%;
+}
+
